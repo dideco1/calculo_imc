@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_IMC.MainPage">
+
+    <StackLayout>
+        <Label Text="Coloca seu peso" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" />
+        <Entry x:Name="peso_valor" />
+        <Label Text="Coloca sua altura" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" />
+        <Entry x:Name="altura_valor" />
+        <Label Text="Classificação                    IMC" FontSize="25" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Abaixo do peso                                          Abaixo 18,5" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Peso Normal                                                 18,5 - 24,9" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Sobrepeso                                                     25 - 29,9" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Obesidade I                                                   30 - 34,9" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Obesidade II                                                  35 - 39,9" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="Obesidade III ou Mórbida                      Maior ou Igual 40" FontSize="15" TextColor="Black" HorizontalTextAlignment="Start" />
+        <Label Text="" />
+        <Button Text="Ver resultado" Clicked="Button_Clicked" />
+    </StackLayout>
+
+</ContentPage>
